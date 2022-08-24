@@ -69,7 +69,7 @@ bbox = as.numeric(sf::st_bbox(vpus))
 
 ## What is it?
 
-Nextgen hydrofabric artifacts are distributed by _NHDPlusV2_ **V**ector **P**rocessing **U**nits. They are built from a set of national reference datasets [cite]() such that they are easily updated, manipulated, and quality controled to meet the needs of a wide range of modeling tasks.
+Nextgen hydrofabric artifacts are distributed by _NHDPlusV2_ **V**ector **P**rocessing **U**nits. They are generated from a set of national reference datasets [cite](https://www.sciencebase.gov/catalog/item/60be0e53d34e86b93891012b) built in collaboration between the USGS and NOAA. These artifacts are designed to be easily updated, manipulated, and quality controlled to meet the needs of a wide range of modeling tasks.
 
 ```{r, fig.align='center', echo = FALSE}
 knitr::include_graphics("roadmap.png")
