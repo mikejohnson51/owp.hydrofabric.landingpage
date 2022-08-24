@@ -49,7 +49,7 @@ for(i in 1:nrow(meta)){
 labels = paste("VPU", vpus$VPUID)
 
 pop <- paste(
-      paste0('<strong>GPKG: </strong><a href="https://www.w3schools.com">nextgen_',meta$vpu,"</a>"),
+      paste0('<strong>GPKG: </strong><a href=', meta$gpkg_link, '</a>'),
       paste("<strong>Flowpath:</strong>", meta$flowpaths),
       paste("<strong>Divides:</strong>", meta$divides),
       paste("<strong>Size:</strong>", meta$size),
